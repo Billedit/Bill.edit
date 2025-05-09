@@ -1,81 +1,40 @@
-Montserrat Variable Font
-========================
+﻿Congratulations, you have successfully downloaded font file! 
 
-This download contains Montserrat as both variable fonts and static fonts.
+This font is provided to you by Fonts2u.com – the largest online 
+repository of free fonts for Windows and Mac.
 
-Montserrat is a variable font with this axis:
-  wght
 
-This means all the styles are contained in these files:
-  Montserrat-VariableFont_wght.ttf
-  Montserrat-Italic-VariableFont_wght.ttf
 
-If your app fully supports variable fonts, you can now pick intermediate styles
-that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Montserrat:
-  static/Montserrat-Thin.ttf
-  static/Montserrat-ExtraLight.ttf
-  static/Montserrat-Light.ttf
-  static/Montserrat-Regular.ttf
-  static/Montserrat-Medium.ttf
-  static/Montserrat-SemiBold.ttf
-  static/Montserrat-Bold.ttf
-  static/Montserrat-ExtraBold.ttf
-  static/Montserrat-Black.ttf
-  static/Montserrat-ThinItalic.ttf
-  static/Montserrat-ExtraLightItalic.ttf
-  static/Montserrat-LightItalic.ttf
-  static/Montserrat-Italic.ttf
-  static/Montserrat-MediumItalic.ttf
-  static/Montserrat-SemiBoldItalic.ttf
-  static/Montserrat-BoldItalic.ttf
-  static/Montserrat-ExtraBoldItalic.ttf
-  static/Montserrat-BlackItalic.ttf
+How to install this font on your computer?
 
-Get started
------------
+For Windows 7 / Vista users:
 
-1. Install the font files you want to use
+- Right-click the font file(s) and choose "Install".
 
-2. Use your app's font picker to view the font family and all the
-available styles
+For users of the previous Windows versions:
 
-Learn more about variable fonts
--------------------------------
+- Copy the included file(s) into a default Windows font folder 
+  (usually C:\WINDOWS\FONTS or C:\WINNT\FONTS)
 
-  https://developers.google.com/web/fundamentals/design-and-ux/typography/variable-fonts
-  https://variablefonts.typenetwork.com
-  https://medium.com/variable-fonts
+For Mac users:
 
-In desktop apps
+Mac OS X 10.3 or above (including the FontBook)
 
-  https://theblog.adobe.com/can-variable-fonts-illustrator-cc
-  https://helpx.adobe.com/nz/photoshop/using/fonts.html#variable_fonts
+- Double-click the font file and hit "Install font" button at 
+  the bottom of the preview.
 
-Online
+Mac OS X
 
-  https://developers.google.com/fonts/docs/getting_started
-  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
-  https://developer.microsoft.com/en-us/microsoft-edge/testdrive/demos/variable-fonts
+- Either copy the font file(s) to /Library/Fonts (for all users), 
+  or to /Users/Your_username/Library/Fonts (for you only).
 
-Installing fonts
+Mac OS 9 or earlier
 
-  MacOS: https://support.apple.com/en-us/HT201749
-  Linux: https://www.google.com/search?q=how+to+install+a+font+on+gnu%2Blinux
-  Windows: https://support.microsoft.com/en-us/help/314960/how-to-install-or-remove-a-font-in-windows
+- You have to convert the font file(s) you have downloaded. 
+  Drag the font suitcases into the System folder. The system 
+  will propose you to add them to the Fonts folder.
 
-Android Apps
+For Linux users:
 
-  https://developers.google.com/fonts/docs/android
-  https://developer.android.com/guide/topics/ui/look-and-feel/downloadable-fonts
+- Copy the font file(s) to /USR/SHARE/FONTS
 
-License
--------
-Please read the full license text (OFL.txt) to understand the permissions,
-restrictions and requirements for usage, redistribution, and modification.
-
-You can use them in your products & projects – print or digital,
-commercial or otherwise.
-
-This isn't legal advice, please consider consulting a lawyer and see the full
-license for all details.
