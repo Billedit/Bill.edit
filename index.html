@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill.Edit</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+    
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+       
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+</head>
+<head>
+<div class="video-container">
+    <video autoplay muted loop id="myVideo" style="transform: translate(-20px , -16px);">
+        <source src="wallpaper.mp4" type="video/mp4">
+    </video>
+    <div class="overlay-text">
+        <h1 style="text-shadow: rgb(0, 0, 0) ; color:rgb(255, 0, 0);">Bill.Edit</h1>
+        <p>“make a cool video and become cool”</p>
+    </div>
+</div>
+</head>
+<body>
+    <p id="demo"></p>
+    <div class="overlay-button" style="transform: translateY(-350px)">
+        <div class="button-container">
+        <a href="#section2"><button onclick="bottomFunction()" class="button" id="myBtn"><h2 style="color: white; text-shadow: white;">WORK WITH ME</h2></button></a>
+        </div>
+    </div>
+</body>
+<body>
+<hr class="rounded-hr">
+    <main class="main-content">
+        <section id="content">
+            <h1 style="font-size: xx-large;">SOME CONTENT CREATER THAT HAS WORKED WITH US</h1>
+        </section>
+    </main>
+<hr class="rounded-hr">
+<div class="card">  
+    <div class="card-content">
+        <a href="https://www.youtube.com/@Mefelz"><img src="Mefelz.png" alt="Creator 1" class="card-image"></a>
+        <a href="https://www.youtube.com/@Mefelz"><h2 style="color: red;">Mefelz</h2></a>
+        <p>1.88M SUBS</p>
+    </div>
+</div>
+<div class="card">  
+    <div class="card-content">
+        <a href="https://www.youtube.com/@ElasmoYT"><img src="Elasmo.jpg" alt="Creator 1" class="card-image"></a>
+        <a href="https://www.youtube.com/@ElasmoYT"><h2 style="color: red;">Elasmo</h2></a>
+        <p>113K SUBS</p>
+    </div>
+</div>
+<div class="card">  
+    <div class="card-content">
+        <a href="https://www.youtube.com/@snagMM2"><img src="Snag.jpg" alt="Creator 1" class="card-image"></a>
+        <a href="https://www.youtube.com/@snagMM2"><h2 style="color: red;">Snag</h2></a>
+        <p>553K SUBS</p>
+    </div>
+</div>
+<div class="card">  
+    <div class="card-content">
+        <a href="https://www.youtube.com/@GEMZ"><img src="Gemz.png" alt="Creator 1" class="card-image"></a>
+        <a href="https://www.youtube.com/@GEMZ"><h2 style="color: red;">Gemz</h2></a>
+        <p>229K SUBS</p>
+    </div>
+</div>
+<h1></h1>
+<div class="card">  
+    <div class="card-content">
+        <a href="https://www.youtube.com/@PakGM"><img src="PakGM.webp" alt="Creator 1" class="card-image"></a>
+        <a href="https://www.youtube.com/@PakGM"><h2 style="color: red;">PakGM</h2></a>
+        <p>1.28M SUBS</p>
+    </div>
+</div>
+<div class="card">  
+    <div class="card-content">
+        <a href="https://www.youtube.com/@PinkMinkkk"><img src="Pinkmink.jpg" alt="Creator 1" class="card-image"></a>
+        <a href="https://www.youtube.com/@PinkMinkkk"><h2 style="color: red;">Pink mink</h2></a>
+        <p>550K SUBS</p>
+    </div>
+</div>
+<div class="card">  
+    <div class="card-content">
+        <a href="https://www.youtube.com/@wzlfspiano"><img src="WzlfsPiano.png" alt="Creator 1" class="card-image"></a>
+        <a href="https://www.youtube.com/@wzlfspiano"><h2 style="color: red;">WzlfsPiano</h2></a>
+        <p>531K SUBS</p>
+    </div>
+</div>
+<hr class="rounded-hr">
+    <h1 class="float-right">WzlfsPiano (1,7M VIEWS)</h1>
+    <iframe src="https://www.youtube.com/embed/_QUH1Z6IHbc?si=8S3iyEMEzR4Pc16H" class="float-left" allowfullscreen></iframe>
+    <h1 class="float-left">Elasmo (110K VIEWS)</h1>
+    <iframe src="https://www.youtube.com/embed/QX4HmzibeUA?si=WaFRBNDjqqCAISYL" class="float-right" allowfullscreen></iframe>
+    <h1 class="float-right">PakGM (344K VIEWS)</h1>
+    <iframe src="https://www.youtube.com/embed/Lt4jPtLXDN4?si=c0BhFDHTX3NSBGN_" class="float-left" allowfullscreen></iframe>
+    <h1 class="float-left">Snag (133K VIEWS)</h1>
+    <iframe src="https://www.youtube.com/embed/tWWkDeeT4xY?si=Ycqm2UMIZDN1eH8d" class="float-right" allowfullscreen></iframe>
+    <h1 class="float-right">Pink mink (722K VIEWS)</h1>
+    <iframe src="https://www.youtube.com/embed/j8mj3rdnT_k?si=gwZ52IBbJTQUbM5y" class="float-left" allowfullscreen></iframe>
+<h1></h1>
+<hr class="rounded-hr">
+    <img src="testi1.png" alt="Logo" class="logo" style="width: 610px; height: 300px;">
+    <img src="testi3.png" alt="Logo" class="logo" style="width: 610px; height: 160px; transform: translateY(-140px)">
+    <img src="testi2.png" alt="Logo" class="logo" style="width: 610px; height: 70px; transform: translateY(-80px)">
+    <img src="testi4.png" alt="Logo" class="logo" style="width: 610px; height: 150px; transform: translateY(-140px)">
+<h1></h1>
+<hr class="rounded-hr" style="transform: translateY(-90px);">
+<div class="video-container">
+    <video autoplay muted loop id="myVideo" style="transform: translate(-20px , -80px);">
+        <source src="banner.mp4" type="video/mp4">
+    </video>
+    <div class="overlay-text">
+        <h1 style="text-shadow: rgb(0, 0, 0) ; color:rgb(255, 0, 0);">Bill.Edit</h1>
+        <p>“make a cool video and become cool”</p>
+    </div>
+</div>
+<h1 style="transform: translateY(-500px)">MAKE A SPECTACULAR VIDEO</h1>
+<div class="main" id="section2" style="transform: translateY(-530px)">
+    <div class="button-container">
+    <a href="https://www.fiverr.com/billedit/edit-your-roblox-video?source=order_page_summary_gig_link_title&funnel=fa7cbc56d2dc40a4bd3a01c1081daa9b"><button onclick="bottomFunction()" class="button" id="myBtn"><h2 style="color: white;">DM ME</h2></button></a>
+    </div>
+</div>
+<hr class="rounded-hr" style="transform: translateY(-165px)">
+<h1 style="color: white ; transform: translateY(-180px)">Bill.Edit</h1>
+</body>
+</html>

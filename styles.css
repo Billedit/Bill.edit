@@ -1,0 +1,294 @@
+@font-face {
+    font-family: 'myFirstFont';
+    src: url('Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');  /* Path to your font file */
+    font-weight: bold;
+    font-style: normal;
+}
+
+div {
+    font-family: 'myFirstFont';
+    font-weight: bold;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+  
+#section1 {
+    height: 50px;
+    background-color: pink;
+}
+  
+#section2 {
+    height: 0px;
+}
+
+head {  
+    background-color: #000000;  /* Light gray background */
+    color: #000000;                /* Dark text color */
+    justify-content: center;  /* Center content horizontally */
+    align-items: center;  /* Center content vertically */   
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8EG-zC_YE4H767YfpGe0pw1aERpKEITHOXshNBiP1whUKQqJVQSp0pK1aI281cKkoVbU&usqp=CAU');  /* Background image */
+    line-height: 1.6;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;  /* Center content horizontally */
+    margin: 0;
+    height: 100vh;  /* Full height */
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}  
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+a {
+    font-family: 'myFirstFont';
+    text-decoration: none;  /* Remove underline from links */
+    color: #ffffff;  /* Blue color */
+    transition: ease-in 0.3s;  /* Smooth transition for hover effect */
+
+}
+
+h1 {
+    font-family: 'myFirstFont';
+    color: #ffffff;  /* Dark blue color */
+    text-size-adjust: 100%;  /* Full width */
+    text-align: center;
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);  /* Shadow effect */
+    margin-top: 20px;
+    box-shadow: #000000 0px 4px 8px rgba(0, 0, 0, 0.2);  /* Shadow effect */
+    transition: ease-in 0.3s;  /* Smooth transition for hover effect */
+}
+
+h2 {
+    font-family: 'myFirstFont';
+    color: #2980b9;  /* Blue color */
+    text-align: center;
+    margin-top: 10px;
+    transition: ease-in 0.3s;
+}
+
+h3 {
+    font-family: 'myFirstFont';
+    color: #2980b9;  /* Blue color */
+    text-align: center;
+    margin-top: 10px;
+    transition: ease-in 0.3s;
+}
+
+p {
+    font-family: 'myFirstFont';
+    color: #000000;  /* Gray color */
+    text-align: center;
+    margin: 10px 0;
+    transition: ease-in 0.3s;
+    text-shadow: #ffffff;
+}
+
+ul {
+    list-style-type: none;  /* Remove bullet points */
+    padding: 0;
+    transition: ease-in 0.3s;
+}
+
+iframe {
+    width: 50%;
+    height: 400px;
+    border: rgba(0, 0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;  /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Shadow effect */
+    transition: 0.3s ease-in;  /* Smooth transition for hover effect */
+}
+
+.float-right {
+    float: right;  /* Float to the right */
+    margin-left: 20px;  /* Space between elements */
+    margin-bottom: 20px;  /* Space between elements */
+}
+
+.header {
+    background-color: #ffffff00;  /* Dark blue color */
+    color: #ffffff;  /* White text color */
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    transition: ease-in 0.3s;  /* Smooth transition for hover effect */
+}
+
+table, th {
+    border-color: #ffffff;
+    text-align: center;
+    font-size: 20px;  /* Font size for table cells */
+    border-radius: 15px;  /* Rounded corners */
+    transition: ease-in 0.3s;  /* Smooth transition for hover effect */
+}
+
+table td {
+    border-color: #ffffff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;  /* Font size for table cells */
+    border-radius: 15px;  /* Rounded corners */
+    transition: ease-in 0.3s;  /* Smooth transition for hover effect */
+}
+
+table tr {    
+    background-color: #ffffff;  /* Dark blue color */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #000000;  /* White text color */
+    transition: ease-in 0.3s;  /* Smooth transition for hover effect */
+}
+
+table {
+    font-family: Arial, sans-serif;
+    border-spacing: 40px;  /* Space between cells */
+    transition: ease-in 0.3s;  /* Smooth transition for hover effect */   
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;  /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Shadow effect */
+}
+
+.card   {
+    background-color: #ffffff;  /* Light gray background */
+    border-radius: 15px;  /* Rounded corners */
+    width: 23.12%;  /* Width of the card */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Shadow effect */
+    transition: 0.3s ease-in;  /* Smooth transition for hover effect */
+    display: inline-flex; /* Enables CSS flexbox */
+    justify-content: center; /* Centers horizontally */
+    transform: scale(0.6);  /* Scale effect on hover */
+}
+
+.card:hover {
+    transform: scale(0.7);  /* Scale effect on hover */
+    transition: 0.3s ease-out;  /* Smooth transition for hover effect */
+}
+
+.card-header {
+    font-size: 24px;  /* Font size for card header */
+    font-weight: bold;
+    color: #2980b9;  /* Blue color */
+    margin-bottom: 10px;
+}
+
+#myBtn {
+    background-color: #ff0000;  /* Blue color */
+    display: flex; /* Enables CSS flexbox */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    width: 25%;  /* Full width */
+    text-align: center;  /* Center text */
+    font-family: Arial, sans-serif;
+    color: white;  /* White text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;  /* Rounded corners */
+    cursor: pointer;
+    font-size: 16px;  /* Font size for button */
+    transition: ease-in 0.3s;  /* Smooth transition for hover effect */
+    transition: background-color 0.3s, transform 0.3s;  /* Smooth transition for hover effect */
+    transform: scale(0.5);  /* Scale effect on hover */
+    margin: 0 auto;  /* Center the button */
+    box-shadow: #ffffff 0px 4px 100px rgb(255, 255, 255);  /* Shadow effect */
+}
+
+#myBtn:hover {
+    background-color: #801c1c;  /* Lighter blue color on hover */
+    transform: scale(0.6);  /* Scale effect on hover */
+    transition: ease-out 0.3s;  /* Smooth transition for hover effect */
+    box-shadow: #ffffff 0px 4px 100px rgb(255, 255, 255);  /* Shadow effect */
+    transition: background-color 0.3s, transform 0.3s;  /* Smooth transition for hover effect */
+}
+
+#myBtn:focus {
+    outline: none;  /* Remove outline on focus */
+}
+
+#myVideo {
+    display: flex; /* Enables CSS flexbox */
+    justify-content: center; /* Centers horizontally */
+    position: top; /* Enables CSS flexbox */
+    left: 0;
+    width: 103.3%;  /* Full width */
+    height: 100%;  /* Full height */
+}
+
+.overlay-text {
+    color: #ffffff;  /* White text color */
+    font-size: 20px;  /* Font size for overlay text */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  /* Center the text */
+    text-align: center;
+    z-index: 2;  /* On top of other elements */
+}
+
+.overlay-text h1 {
+    color: #ffffff;  /* White text color */
+    font-size: 40px;  /* Font size for overlay header */
+    margin-bottom: 10px;
+}
+
+.overlay-text p {
+    color: #ffffff;  /* White text color */
+    font-size: 20px;  /* Font size for overlay paragraph */
+    margin-bottom: 20px;
+}
+
+.float-left {
+    position: relative;
+    float: left;
+    margin: 0px 0px 50px;
+    height: 100%;
+    width: 50%;
+    height: 400px;
+    border: rgba(0, 0, 0, 0);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;  /* Rounded corners */
+    line-height: 390px;
+    transition: 0.3s ease-in;  /* Smooth transition for hover effect */
+}
+
+.float-right {
+    float: right;
+    width: 65%;
+    margin: 0px 0px 50px;
+    height: 100%;
+    width: 50%;
+    height: 400px;
+    border: rgba(0, 0, 0, 0);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;  /* Rounded corners */
+    line-height: 390px;
+    transition: 0.3s ease-in;  /* Smooth transition for hover effect */
+}
+
+hr {
+    height: 0px;
+    background-color: #000000;  /* Dark blue color */
+    margin: 20px 0;  /* Space above and below the line */
+}
