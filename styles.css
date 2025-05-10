@@ -35,7 +35,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-
     background-image: url('https://cdn.discordapp.com/attachments/1338323776252678258/1370705494670442536/Dirt.jpg?ex=68207878&is=681f26f8&hm=f0d659f90530584e42088e5dbefb8de38b2750a36a3183bd5262158120d6600d&');  /* Background image */
     line-height: 1.6;
     padding: 20px;
@@ -92,11 +91,11 @@ h3 {
 
 p {
     font-family: 'myFirstFont';
-    color: #000000;  /* Gray color */
+    color: #ffffff;  /* Gray color */
     text-align: center;
     margin: 10px 0;
     transition: ease-in 0.3s;
-    text-shadow: #ffffff;
+    text-shadow: #000000;
 }
 
 ul {
@@ -169,8 +168,15 @@ img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Shadow effect */
 }
 
+.card-content {
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100%;  /* Full height */
+    transform: translateY(-340px);
+}
+
 .card   {
-    background-color: #ffffff;  /* Light gray background */
+    background-color: #ffffff00;  /* Light gray background */
     border-radius: 15px;  /* Rounded corners */
     width: 23.12%;  /* Width of the card */
     padding: 10px;
@@ -178,11 +184,12 @@ img {
     transition: 0.3s ease-in;  /* Smooth transition for hover effect */
     display: inline-flex; /* Enables CSS flexbox */
     justify-content: center; /* Centers horizontally */
+    transform: translateY(-150px);
     transform: scale(0.6);  /* Scale effect on hover */
 }
 
 .card:hover {
-    transform: scale(0.7);  /* Scale effect on hover */
+    transform: scale(0.65);  /* Scale effect on hover */
     transition: 0.3s ease-out;  /* Smooth transition for hover effect */
 }
 
@@ -271,6 +278,7 @@ img {
     border-radius: 20px;  /* Rounded corners */
     line-height: 390px;
     transition: 0.3s ease-in;  /* Smooth transition for hover effect */
+    transform: translateY(-270px);
 }
 
 .float-right {
@@ -286,6 +294,7 @@ img {
     border-radius: 20px;  /* Rounded corners */
     line-height: 390px;
     transition: 0.3s ease-in;  /* Smooth transition for hover effect */
+    transform: translateY(-270px);
 }
 
 hr {
