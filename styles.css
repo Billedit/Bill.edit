@@ -35,7 +35,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8EG-zC_YE4H767YfpGe0pw1aERpKEITHOXshNBiP1whUKQqJVQSp0pK1aI281cKkoVbU&usqp=CAU');  /* Background image */
+
+    background-image: url('https://cdn.discordapp.com/attachments/1338323776252678258/1370705494670442536/Dirt.jpg?ex=68207878&is=681f26f8&hm=f0d659f90530584e42088e5dbefb8de38b2750a36a3183bd5262158120d6600d&');  /* Background image */
     line-height: 1.6;
     padding: 20px;
     align-items: center;
@@ -65,7 +66,7 @@ a {
 h1 {
     font-family: 'myFirstFont';
     color: #ffffff;  /* Dark blue color */
-    text-size-adjust: 100%;  /* Full width */
+    font-weight: bold;
     text-align: center;
     text-shadow: 0px 0px 10px rgb(255, 255, 255);  /* Shadow effect */
     margin-top: 20px;
@@ -197,13 +198,13 @@ img {
     display: flex; /* Enables CSS flexbox */
     justify-content: center; /* Centers horizontally */
     align-items: center; /* Centers vertically */
-    width: 25%;  /* Full width */
+    width: 45%;  /* Full width */
     text-align: center;  /* Center text */
     font-family: Arial, sans-serif;
     color: white;  /* White text color */
     padding: 10px 20px;
     border: none;
-    border-radius: 40px;  /* Rounded corners */
+    border-radius: 60px;  /* Rounded corners */
     cursor: pointer;
     font-size: 16px;  /* Font size for button */
     transition: ease-in 0.3s;  /* Smooth transition for hover effect */
