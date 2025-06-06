@@ -35,7 +35,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url('https://cdn.discordapp.com/attachments/1338323776252678258/1370705494670442536/Dirt.jpg?ex=68207878&is=681f26f8&hm=f0d659f90530584e42088e5dbefb8de38b2750a36a3183bd5262158120d6600d&');  /* Background image */
+    background-image: url('Dirt.jpg');  /* Background image */
     line-height: 1.6;
     padding: 20px;
     align-items: center;
@@ -44,7 +44,7 @@ body {
     height: 100vh;  /* Full height */
     align-items: center;
     font-family: Arial, sans-serif;
-    color: white;
+    color: rgba(255, 255, 255, 0);
     text-align: center;
 }  
 
@@ -59,7 +59,6 @@ a {
     text-decoration: none;  /* Remove underline from links */
     color: #ffffff;  /* Blue color */
     transition: ease-in 0.3s;  /* Smooth transition for hover effect */
-
 }
 
 h1 {
